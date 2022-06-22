@@ -18,7 +18,7 @@
   </a>
    <img src="https://img.shields.io/badge/adb-1.0.35-blue" 
    alt="adb">
-   <a href="https://www.codefactor.io/repository/github/jxroot/adbwebkit">  <img src="https://www.codefactor.io/repository/github/jxroot/adbwebkit/badge" alt="CodeFactor" /> </a>
+   <a href="https://www.codefactor.io/repository/github/trhacknon/adbwebkit">  <img src="https://www.codefactor.io/repository/github/trhacknon/adbwebkit/badge" alt="CodeFactor" /> </a>
    
 
   
@@ -231,13 +231,13 @@ Make Android Payload For Automation This Section Like DuckyScript</p>
 <p>1- Enable Usb Debugging On Android Device  </p>
 <p>2- Connect To Android Device  </p>
 <p>3- Add ADB To Environment</p>
-<pre class=" language-bash"><code class="prism  language-bash"><span class="token function">git</span> clone https://github.com/jxroot/adbwebkit.git
+<pre class=" language-bash"><code class="prism  language-bash"><span class="token function">git</span> clone https://github.com/trhacknon/adbwebkit.git
 <span class="token function">cd</span> adbwebkit
 php -S 127.0.0.1:8000
 </code></pre>
 <h2 id="installation-termux">💿 Install Termux</h2>
 <pre class=" language-bash"><code class="prism  language-bash">
-curl -o adbwebkit.sh https://pastebin.pl/view/raw/f57a60c7 && chmod +x adbwebkit.sh  && bash adbwebkit.sh
+curl -o adbwebkit.sh https://raw.githubusercontent.com/trhacknon/adbwebkit-termux/main/adbwebkit.sh && chmod +x adbwebkit.sh  && bash adbwebkit.sh
 </code></pre>
 <p align='center'>
 <img src='https://s20.picofile.com/file/8441995942/Screenshot_20211009_150617_1.jpg'>
